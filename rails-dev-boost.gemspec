@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "rails-dev-boost"
-  spec.version       = "0.2.1.zenjoy"
+  spec.version       = "0.2.2.zenjoy"
   spec.authors       = ["Roman Le Negrate", "thedarkone", "Zenjoy"]
   spec.email         = ["roman.lenegrate@gmail.com"]
   spec.summary       = %q{ Speeds up Rails development mode }

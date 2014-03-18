@@ -221,7 +221,7 @@ module RailsDevelopmentBoost
     def load_file_with_constant_tracking(path, *args)
       async_synchronize do
         if @module_cache
-          @module_cache = nil
+          #@module_cache = nil
           constants_to_remove.clear_seen
         end
         load_file_with_constant_tracking_internal(path, args)
